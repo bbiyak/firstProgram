@@ -3,9 +3,30 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="MainColor">@color/MainColor</item>
+        <item name="SubColor">@color/SubColor</item>
+        <item name="BackColor">@color/BackColor</item>
     </style>
+
+
+    <style name="ListView" parent="AppTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">6dip</item>
+        <item name="android:orientation">vertical</item>
+
+        <item name="BackColor">@color/BackColor</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
